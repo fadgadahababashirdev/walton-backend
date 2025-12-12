@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 import dotenv from 'dotenv';
-require("dotenv").config()
+dotenv.config()
 
 export const sequelize = new Sequelize(
     process.env.DB_NAME || 'walton_business',
