@@ -1,5 +1,6 @@
-import dotenv from 'dotenv';
-dotenv.config();
+// config/database.js
+require('dotenv').config();
+
 module.exports = {
   development: {
     username: process.env.DB_USER || 'postgres',

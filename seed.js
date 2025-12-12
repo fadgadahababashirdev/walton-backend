@@ -1,4 +1,4 @@
-import { sequelize } from './config/database.js';
+import { sequelize } from './config/database.cjs';
 import { User, Category, Product, Inventory } from './models/index.js';
 import bcrypt from 'bcryptjs';
 import { v4 as uuidv4 } from 'uuid';
